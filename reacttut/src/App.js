@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import "./index.css";
 
@@ -45,9 +46,9 @@ function App() {
 
   return (
     <>
-      <Heading />
+      {/* <Heading />
       <Para />
-      <List />
+      <List /> */}
 
       <h3 style={heading1}>
         My name is {fname} {lname}
