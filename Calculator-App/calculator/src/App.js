@@ -1,24 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import {add, sub, mul, div} from "./Calc";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+    <ol>
+      <li>sum of two number is : {add(40,4)}</li>
+      <li>Sub of two number is : {sub(20,10)}</li>
+      <li>mul of two number is : {mul(10, 35)}</li>
+      <li>div of two number is : {div(20,5)}</li>
+    </ol>
+   </>
   );
 }
 
